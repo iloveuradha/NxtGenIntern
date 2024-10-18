@@ -93,3 +93,47 @@ footer {
     max-width: 100%;
     height: auto; /* Maintain aspect ratio */
 }
+/* Carousel Styles */
+.carousel {
+    margin-top: 80px; /* Adjust this value to create space for the navbar */
+}
+
+.carousel-inner img {
+    width: 100%; /* Ensures the images take the full width */
+    height: auto; /* Maintains aspect ratio */
+}
+
+@media (max-width: 768px) {
+    /* Adjust carousel image size on smaller screens if necessary */
+    .carousel-inner img {
+        height: auto; /* Ensures images are responsive */
+    }
+}
+/* Ensure the carousel has top margin to account for fixed navbar */
+#home {
+    margin-top: 80px; /* Adjust this based on your navbar height */
+}
+
+/* Carousel Styles */
+.carousel-inner img {
+    width: 100%; /* Ensures images take full width of the carousel */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.carousel-caption {
+    position: absolute; /* Adjust caption positioning */
+    bottom: 20px; /* Adjust this value as necessary */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add a background for better visibility */
+    color: white;
+    padding: 10px; /* Optional: Padding around the caption text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    /* Adjust caption size for smaller screens */
+    .carousel-caption h5 {
+        font-size: 1.5rem; /* Example size, adjust as needed */
+    }
+}
