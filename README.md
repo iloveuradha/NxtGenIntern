@@ -59,7 +59,7 @@ This project is licensed under the **NxtGenIntern Custom License**. See the [LIC
 
 For inquiries or support:
 
-- **Email**: [yourname@email.com](mailto:dhanushr@nxtgenintern.com)
+- **Email**: [dhanushr@nxtgenintern.com](mailto:dhanushr@nxtgenintern.com)
 - **Website**: [nxtgenintern.com](https://nxtgenintern.com)
 
 
