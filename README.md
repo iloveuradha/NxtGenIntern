@@ -18,7 +18,7 @@ NxtGenIntern is an innovative platform designed to bridge the gap between studen
 
 1. **Clone the repository**:
    ```bash
-   [git clone https://github.com/yourusername/nxtgenintern.git](https://github.com/iloveuradha/NxtGenIntern.git)
+   git clone https://github.com/iloveuradha/NxtGenIntern.git
    ```
 2. **Navigate to the project directory**:
    ```bash
