@@ -55,7 +55,7 @@ We welcome all types of contributions! Some ideas:
 
 ## 💬 Need Help?  
 
-Email us at: [yourname@email.com](mailto:dhanushr@nxtgenintern.com)  
+Email us at: [dhanushr@nxtgenintern.com](mailto:dhanushr@nxtgenintern.com)  
 
 
 🔹 *Together, we can make NxtGenIntern the best open-source internship platform for students!* 🚀  
