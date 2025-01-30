@@ -18,7 +18,7 @@ NxtGenIntern is an innovative platform designed to bridge the gap between studen
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/nxtgenintern.git
+   [git clone https://github.com/yourusername/nxtgenintern.git](https://github.com/iloveuradha/NxtGenIntern.git)
    ```
 2. **Navigate to the project directory**:
    ```bash
@@ -59,9 +59,9 @@ This project is licensed under the **NxtGenIntern Custom License**. See the [LIC
 
 For inquiries or support:
 
-- **Email**: [yourname@email.com](mailto:yourname@email.com)
+- **Email**: [yourname@email.com](mailto:dhanushr@nxtgenintern.com)
 - **Website**: [nxtgenintern.com](https://nxtgenintern.com)
-- **Join our Community**: [Discord/Slack Invite Link]
+
 
 ---
 
