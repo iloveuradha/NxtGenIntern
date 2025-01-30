@@ -53,7 +53,7 @@ For detailed guidelines, refer to our [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-This project is licensed under the **NxtGenIntern Custom License**. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **NxtGenIntern Custom License**.
 
 ## Contact
 
