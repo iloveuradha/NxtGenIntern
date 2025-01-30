@@ -1,0 +1,125 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Removed default margin */
+    padding-top: 80px; /* Increased padding-top to ensure content is below navbar */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #f8f9fa;
+    position: fixed; /* Fixed position to keep navbar at the top */
+    width: 100%; /* Ensure navbar spans the full width */
+    z-index: 1000; /* Ensure navbar is on top of other elements */
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.nav-link:hover, .nav-link.active {
+    color: #f0a500;
+}
+.btn-primary {
+    background-color: #f0a500;
+    border: none;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #cc8500;
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.logo-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-text-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.logo-subtext {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Carousel Styles */
+.carousel-inner {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent; /* Set to transparent */
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove any shadow if present */
+}
+
+.carousel-item {
+    transition: transform 0.5s ease; /* Smooth transition effect */
+    border: none; /* Remove border */
+}
+
+.carousel-item h5 {
+    font-size: 1.5rem;
+    color: #007bff; /* Title color */
+}
+
+.carousel-item p {
+    font-size: 1rem;
+    color: #555; /* Description color */
+}
+
+.carousel-item:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+/* Carousel Control Styles */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: transparent; /* Make controls transparent */
+    border: none; /* Remove border */
+    width: 5%; /* Keep buttons smaller */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent; /* Make icons transparent */
+    border-radius: 50%; /* Rounded controls */
+    filter: invert(1); /* Optional: Invert color to make them visible on dark backgrounds */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Responsive Styles for Carousel Items */
+@media (max-width: 768px) {
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Smaller title on mobile */
+    }
+    
+    .carousel-item h5 {
+        font-size: 1.25rem; /* Smaller channel/platform names */
+    }
+    
+    .carousel-item p {
+        font-size: 0.9rem; /* Smaller descriptions */
+    }
+    
+    .btn-primary {
+        font-size: 0.9rem; /* Smaller button text on mobile */
+    }
+}

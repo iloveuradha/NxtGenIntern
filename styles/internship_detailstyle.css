@@ -1,0 +1,176 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 80px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 5px 10px; /* Reduced padding to make it smaller */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    width: 50px; /* Reduced logo size */
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-text-title {
+    font-size: 1.4rem; /* Slightly reduced title size */
+    margin: 0;
+}
+
+.logo-subtext {
+    font-size: 0.85rem;
+    margin: 0;
+    color: #777;
+}
+
+/* Navbar Link Styles */
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-left: 20px;
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0a500;
+    transition: color 0.3s;
+}
+
+/* Button Style for Login/Signup */
+.navbar-nav .btn {
+    background-color: #f0a500;
+    border: none;
+    padding: 8px 15px;
+}
+
+.navbar-nav .btn:hover {
+    background-color: #cc8500;
+}
+
+/* Internship Details Page */
+.container {
+    margin-top: 390px; /* Adjusted to allow space for fixed navbar */
+}
+.nav-link:hover, .nav-link.active {
+    color: #f0a500;
+}
+.card {
+    margin-bottom: 50px;
+    border: none;
+}
+
+.card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body h5 {
+    margin-top: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+/* Form Section */
+.card form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-select, .form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #f0a500;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #cc8500;
+}
+
+/* Adjust top margin for the form card to ensure it is below the navbar */
+.form-card-container {
+    margin-top: 30px; /* Increased to ensure it's not overlapping with navbar */
+}
+
+/* Align form and internship sections better */
+.internship-section {
+    margin-right: 10px;
+}
+
+.form-card-container {
+    margin-left: 30px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #343a40;
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #343a40;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo-text-title {
+        font-size: 1.2rem;
+    }
+
+    .logo-subtext {
+        font-size: 0.8rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+        margin-left: 10px;
+    }
+
+    .container {
+        margin-top: 600px; /* Increase top margin slightly on small screens */
+    }
+
+    .form-card-container {
+        margin-top: 130px; /* Ensure form card adjusts on smaller screens */
+    }
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
