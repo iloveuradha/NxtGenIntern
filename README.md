@@ -1,0 +1,38 @@
+# NxtGenIntern Custom License
+
+## Copyright (c) 2025 NxtGenIntern
+
+### 1. Ownership and Rights
+
+- This project, including all code, content, and resources, is the exclusive property of **NxtGenIntern**.
+- Contributions made by individuals do **not** transfer any ownership rights.
+
+### 2. Contribution Policy
+
+- By contributing to this project, contributors **grant NxtGenIntern a non-exclusive, irrevocable license** to use, modify, and distribute their contributions.
+- Contributors retain authorship of their contributions but **cannot claim the project as their own** or publish it separately.
+
+### 3. Restrictions on Use
+
+- **Modification**: Users may modify the code for personal or educational purposes, but **modified versions cannot be distributed** without written permission.
+- **Publication**: No one is allowed to **republish, rebrand, or distribute** this project, in whole or in part, under a different name.
+- **Commercial Use**: Any commercial use requires **explicit written permission** from NxtGenIntern.
+
+### 4. Liability & Disclaimer
+
+- This project is provided **as is**, without warranties of any kind.
+- NxtGenIntern is **not responsible** for any issues resulting from the use of this project.
+
+### 5. Enforcement
+
+- Violations of this license may result in legal action.
+- All disputes shall be governed by the laws of [Your Country/Region].
+
+For permission requests, contact:&#x20;
+
+mail:[dhanushr@nxtgenintern.com](mailto\:dhanushr@nxtgenintern.com) / [dnxtgenintern@gmail.com](mailto\:dnxtgenintern@gmail.com)\
+Website: nxtgenintern.com
+
+
+
+&#x20;
